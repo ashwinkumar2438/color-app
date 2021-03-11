@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.main-box{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width:60vw;
+}
+
+.left-side{
+  width:50%;
+  .main-input{
+    border:1px solid maroon;
+    background: transparent;
+    outline: none;
+    padding:6px 12px;
+  }
+
+  .color-me{
+    border:1px solid maroon;
+    background:maroon;
+    color:white;
+    outline:none;
+    padding: 6px 12px;
+    cursor:pointer;
+    margin-left: 10px;
+  }
+
+}
+.right-side{
+  width:300px;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  .grid{
+    height:100px;
+    border:1px solid maroon;
+    text-align: center;
+    line-height:100px;
+    vertical-align: middle;
+  }
+}
+
+
+
+
